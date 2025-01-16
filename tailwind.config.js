@@ -4,13 +4,21 @@ export default {
   theme: {
     extend: {
       screens: {
-        xs: { max: "482px" }, // Telas menores que 480px (smartphones pequenos)
-        sm: { min: "483px", max: "768px" }, // Telas de 481px até 767px (smartphones grandes)
-        md: { min: "769px", max: "1024px" }, // Telas de 768px até 1023px (tablets e telas pequenas)
-        lg: { min: "1025px", max: "1200px" }, // Telas de 1024px até 1279px (laptops pequenos e médios)
-        xl: { min: "1201px" }, // Telas de 1280px até 1535px (laptops grandes e desktops)
+        xs: { max: "482px" },
+        sm: { min: "483px", max: "768px" },
+        md: { min: "769px", max: "1024px" },
+        lg: { min: "1025px", max: "1200px" },
+        xl: { min: "1201px" },
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".text-shadow-custom": {
+          textShadow: "-4px 2px 2px rgba(0, 0, 0, 0.7)",
+        },
+      });
+    },
+  ],
 };
