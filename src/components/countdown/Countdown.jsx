@@ -40,7 +40,9 @@ const Countdown = ({ durationHours, className }) => {
   // Passo 6: Renderiza o componente Countdown com o tempo restante ou a mensagem "Tempo Esgotado!".
   return (
     <div className={`countdown ${className}`}>
-      <p className="countdown-text">Oferta por tempo Limitado</p>
+      <p className="countdown-text">
+        Oferta por <br /> tempo Limitado
+      </p>
       <p className="countdown-regressive">
         {remainingTime > 0 ? formatTime(remainingTime) : "Tempo Esgotado!"}
       </p>

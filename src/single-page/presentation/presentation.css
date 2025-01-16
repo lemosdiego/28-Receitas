@@ -1,0 +1,56 @@
+.section-presentation {
+  @apply flex flex-col text-[#333333] w-screen;
+  @apply xs:p-9 xs:gap-2;
+  @apply sm:p-10 sm:gap-2;
+  @apply md:p-11 md:gap-3;
+  @apply lg:p-12 lg:gap-3;
+  @apply xl:p-28 xl:gap-4;
+}
+.presentation-title {
+  @apply xs:text-xl;
+  @apply sm:text-2xl;
+  @apply md:text-2xl;
+  @apply lg:text-2xl;
+  @apply xl:text-4xl;
+}
+
+.presentation-description {
+  @apply xs:text-base;
+  @apply sm:text-lg;
+  @apply md:text-xl;
+  @apply lg:text-xl;
+  @apply xl:text-2xl xl:w-4/5;
+}
+
+.content-card {
+  @apply grid gap-3;
+  @apply xs:grid-cols-1 xs:mt-2;
+  @apply sm:grid-cols-2 sm:mt-3;
+  @apply md:grid-cols-2 md:mt-4;
+  @apply lg:grid-cols-2 lg:mt-5;
+  @apply xl:grid-cols-2 xl:mt-6;
+}
+.card-presentation {
+  @apply border-e bg-[#8FBC8F] rounded shadow-custom;
+  @apply xs:p-6;
+  @apply sm:p-6;
+  @apply md:p-7;
+  @apply lg:p-8;
+  @apply xl:p-11;
+}
+.card-presentation:hover {
+  @apply bg-[#F5F5F5];
+}
+.title-category {
+  @apply sm:text-lg;
+  @apply md:text-xl;
+  @apply lg:text-xl;
+  @apply xl:text-2xl;
+}
+.description-category {
+  @apply mt-2;
+  @apply sm:text-base;
+  @apply md:text-base;
+  @apply lg:text-base;
+  @apply xl:text-xl;
+}

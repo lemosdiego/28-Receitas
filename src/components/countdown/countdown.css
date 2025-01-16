@@ -1,9 +1,19 @@
 .countdown {
-  @apply fixed bottom-5 right-5 text-center;
+  @apply fixed bottom-7 right-7 text-center;
 }
 .countdown-text {
-  @apply text-red-700 font-bold animate-pulse text-2xl;
+  @apply text-[#FFD700] font-bold animate-pulse;
+  @apply xs:text-base;
+  @apply sm:text-lg;
+  @apply md:text-xl;
+  @apply lg:text-xl;
+  @apply xl:text-xl;
 }
 .countdown-regressive {
-  @apply text-red-700 font-bold text-3xl;
+  @apply text-[#FFD700] font-bold;
+  @apply xs:text-lg;
+  @apply sm:text-xl;
+  @apply md:text-xl;
+  @apply lg:text-2xl;
+  @apply xl:text-2xl;
 }

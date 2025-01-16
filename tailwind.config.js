@@ -10,6 +10,10 @@ export default {
         lg: { min: "1025px", max: "1200px" },
         xl: { min: "1201px" },
       },
+      boxShadow: {
+        custom:
+          "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px",
+      },
     },
   },
   plugins: [
