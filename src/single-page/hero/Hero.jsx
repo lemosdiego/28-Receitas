@@ -4,8 +4,8 @@ import "./hero.css";
 const Hero = () => {
   return (
     <header>
-      <h1>Emagreça com saúde: 28 receitas saudáveis</h1>
-      <p>
+      <h1 className="hero-title">Emagreça com saúde: 28 receitas saudáveis</h1>
+      <p className="hero-description">
         Um guia completo para uma jornada de emagrecimento saudável e deliciosa
       </p>
       <Cta

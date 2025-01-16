@@ -7,7 +7,7 @@ header {
   @apply xl:p-32;
 }
 
-h1 {
+.hero-title {
   @apply text-[#ffff] text-shadow-custom font-bold;
   @apply xs:text-3xl;
   @apply sm:text-4xl;
@@ -15,7 +15,7 @@ h1 {
   @apply lg:text-5xl;
   @apply xl:text-6xl;
 }
-p {
+.hero-description {
   @apply text-[#ffff] text-shadow-custom font-semibold mt-2;
   @apply xs:text-xl;
   @apply sm:text-2xl;
@@ -32,9 +32,3 @@ p {
   @apply lg:h-12 lg:w-64;
   @apply xl:h-12 xl:w-80;
 }
-
-/* @apply xs:;
-@apply sm:;
-@apply md:;
-@apply lg:;
-@apply xl:; */
