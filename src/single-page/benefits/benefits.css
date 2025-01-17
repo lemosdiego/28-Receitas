@@ -1,0 +1,46 @@
+.section-benefits {
+  @apply bg-[#F5F5F5] w-full  flex  justify-center  flex-col;
+  @apply xs:p-8;
+  @apply sm:p-11;
+  @apply md:p-11;
+  @apply lg:p-12 lg:gap-3 lg:items-center;
+  @apply xl:p-16 xl:gap-5 xl:items-center;
+}
+
+.title-benefits {
+  @apply xs:text-3xl;
+  @apply sm:text-3xl;
+  @apply md:text-4xl;
+  @apply lg:text-4xl;
+  @apply xl:text-5xl;
+}
+.card-container-benefits {
+  @apply grid-cols-1 grid;
+  @apply xs:gap-2 xs:mt-4;
+  @apply sm:grid-cols-2 sm:gap-3 sm:mt-6;
+  @apply md:grid-cols-2 md:gap-3 md:mt-6;
+  @apply lg:grid-cols-2 lg:gap-3 lg:mt-7 lg:w-[80vw];
+  @apply xl:grid-cols-2 xl:gap-3 xl:mt-7 xl:w-[60vw];
+}
+.card-benefits {
+  @apply bg-[#ffff] flex flex-col rounded shadow-custom;
+  @apply xs:p-7;
+  @apply sm:p-7 sm:gap-2;
+  @apply md:p-8 md:gap-3;
+  @apply lg:p-8 lg:gap-2;
+  @apply xl:p-11 xl:gap-2;
+}
+.title-card-benefits {
+  @apply text-xl;
+}
+.description-card-benefits {
+  @apply text-base;
+}
+.cta-benefits {
+  @apply animate-bounce;
+  @apply xs:w-[100%] xs:mt-6 xs:h-11;
+  @apply sm:w-96 sm:mt-8 sm:h-11;
+  @apply md:w-[450px] md:mt-8 md:h-11;
+  @apply lg:w-[480px] lg:mt-8 lg:h-12;
+  @apply xl:w-[500px] xl:mt-5 xl:h-12;
+}

@@ -1,15 +1,15 @@
 header {
-  @apply w-screen bg-[url('/public/background/background.webp')] bg-cover bg-center bg-no-repeat;
-  @apply xs:p-12;
-  @apply sm:p-16;
-  @apply md:p-20;
-  @apply lg:p-24;
-  @apply xl:p-32;
+  @apply w-screen bg-[url('/public/background/background.webp')] bg-cover bg-center bg-no-repeat flex flex-col;
+  @apply xs:p-10 xs:gap-2;
+  @apply sm:p-14 sm:gap-2;
+  @apply md:p-16 md:gap-2;
+  @apply lg:p-20 lg:gap-3;
+  @apply xl:p-32 xl:gap-3;
 }
 
 .hero-title {
   @apply text-[#ffff] text-shadow-custom font-bold;
-  @apply xs:text-3xl;
+  @apply xs:text-4xl;
   @apply sm:text-4xl;
   @apply md:text-5xl;
   @apply lg:text-5xl;
@@ -18,17 +18,17 @@ header {
 .hero-description {
   @apply text-[#ffff] text-shadow-custom font-semibold mt-2;
   @apply xs:text-xl;
-  @apply sm:text-2xl;
-  @apply md:text-3xl;
+  @apply sm:text-xl;
+  @apply md:text-2xl;
   @apply lg:text-3xl;
   @apply xl:text-4xl;
 }
 
 .cta-hero {
   @apply mt-2;
-  @apply xs:h-11 xs:w-48;
-  @apply sm:h-12 sm:w-52;
-  @apply md:h-12 md:w-60;
-  @apply lg:h-12 lg:w-64;
-  @apply xl:h-12 xl:w-80;
+  @apply xs:h-10 xs:w-52;
+  @apply sm:h-12 sm:w-72;
+  @apply md:h-12 md:w-80;
+  @apply lg:h-12 lg:w-80;
+  @apply xl:h-12 xl:w-96;
 }
