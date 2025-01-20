@@ -4,6 +4,7 @@ import Hero from "./hero/Hero";
 import Highlights from "./highlights/Highlights";
 import Presentation from "./presentation/Presentation";
 import Promo from "./promo/Promo";
+import Testimonials from "./testimonials/Testimonials";
 import Whybuy from "./whybuy/Whybuy";
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Promo />
       <Highlights />
       <Whybuy />
+      <Testimonials />
       <Countdown durationHours={5} />
     </div>
   );
