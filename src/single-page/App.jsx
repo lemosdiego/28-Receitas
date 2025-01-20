@@ -4,6 +4,7 @@ import Hero from "./hero/Hero";
 import Highlights from "./highlights/Highlights";
 import Presentation from "./presentation/Presentation";
 import Promo from "./promo/Promo";
+import Whybuy from "./whybuy/Whybuy";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Benefits />
       <Promo />
       <Highlights />
+      <Whybuy />
       <Countdown durationHours={5} />
     </div>
   );

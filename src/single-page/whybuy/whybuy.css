@@ -1,0 +1,45 @@
+.section-whybuy {
+  @apply grid  gap-7 bg-[#8FBC8F];
+  @apply md:grid-cols-2;
+  @apply lg:grid-cols-2;
+  @apply xl:grid-cols-2;
+}
+
+.card-whybuy {
+  @apply flex flex-col bg-[#ffff] shadow-custom rounded;
+  @apply xs:p-9 xs:gap-4;
+  @apply sm:p-10 sm:gap-4;
+  @apply md:p-10 md:gap-4;
+  @apply lg:p-12 lg:gap-5;
+  @apply xl:p-20 xl:gap-7;
+}
+
+.title-whybuy {
+  @apply font-bold;
+  @apply xs:text-2xl;
+  @apply sm:text-2xl;
+  @apply md:text-3xl;
+  @apply lg:text-3xl;
+  @apply xl:text-4xl;
+}
+
+.description-whybuy {
+  @apply xs:text-base;
+  @apply sm:text-base;
+  @apply md:text-lg;
+  @apply lg:text-lg;
+  @apply xl:text-lg;
+}
+
+.whybuy-points {
+  @apply flex flex-col gap-2;
+}
+
+.point-item {
+  @apply font-medium italic;
+  @apply xs:text-lg;
+  @apply sm:text-lg;
+  @apply md:text-lg;
+  @apply lg:text-lg;
+  @apply xl:text-xl;
+}
