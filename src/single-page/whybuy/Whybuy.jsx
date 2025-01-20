@@ -1,10 +1,11 @@
 import "./whybuy.css";
 import Card from "../../components/card/Card";
+
 const whyThisEbook = [
   {
     title: "Quem Pode Se Beneficiar?",
     description:
-      "Este ebook é ideal para qualquer pessoa que busca uma alimentação mais saudável sem abrir mão do sabor. Seja você um iniciante na cozinha ou alguém que já conhece o básico, estas receitas são perfeitas para todos.",
+      "Este ebook é ideal para quem busca uma alimentação saudável sem abrir mão do sabor. Perfeito para iniciantes na cozinha ou para quem já conhece o básico, com receitas acessíveis a todos.",
     points: [
       {
         text: "Para quem quer perder peso de forma saudável.",
@@ -20,7 +21,7 @@ const whyThisEbook = [
   {
     title: "Benefícios de Ter Este Ebook",
     description:
-      "Ao adquirir este ebook, você terá acesso a 28 receitas cuidadosamente selecionadas para ajudar na sua jornada de alimentação saudável. Com pratos deliciosos e fáceis de preparar, você vai descobrir que comer bem pode ser prático e saboroso.",
+      "Com este ebook, você terá acesso a 28 receitas cuidadosamente selecionadas para apoiar sua jornada de alimentação saudável. Descubra pratos deliciosos e práticos que tornam a alimentação saudável fácil e saborosa.",
     points: [
       {
         text: "Receitas de saladas, sopas, pratos e sobremesas.",

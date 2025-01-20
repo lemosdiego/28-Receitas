@@ -1,5 +1,5 @@
-import Card from "../../components/card/Card";
-import "./highlights.css";
+import "react";
+import Layout from "../../components/layout/Layout";
 
 const highlights = [
   {
@@ -30,20 +30,12 @@ const highlights = [
 
 const Highlights = () => {
   return (
-    <section className="section-highlights">
-      <h2 className="title-highlights">As 4 Receitas Favoritas</h2>
-      <div className="section-container-card">
-        {highlights.map((highlight, index) => (
-          <Card key={index} className="card-highlights">
-            <img src={highlight.image} alt="" className="image-highlights" />
-            <h3 className="title-card-highlights">{highlight.title}</h3>
-            <p className="description-card-highlights">
-              {highlight.description}
-            </p>
-          </Card>
-        ))}
-      </div>
-    </section>
+    <Layout
+      title="As 4 Receitas Favoritas"
+      items={highlights}
+      className="highlights"
+    />
   );
 };
+
 export default Highlights;
