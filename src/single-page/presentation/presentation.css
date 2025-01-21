@@ -31,7 +31,7 @@
   @apply xl:grid-cols-2 xl:mt-6;
 }
 .card-presentation {
-  @apply border-e bg-[#8FBC8F] rounded shadow-custom;
+  @apply border-e bg-[#D1D1D1] rounded shadow-custom;
   @apply xs:p-6;
   @apply sm:p-6;
   @apply md:p-7;

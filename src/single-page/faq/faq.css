@@ -1,5 +1,5 @@
 .section-faq {
-  @apply w-full flex flex-col items-center bg-[#f5f5f5];
+  @apply w-full flex flex-col items-center bg-[#FFFFFF];
   @apply xs:p-8 xs:gap-6;
   @apply sm:p-9 sm:gap-7;
   @apply md:p-10 md:gap-8;
@@ -17,7 +17,7 @@
 }
 
 .faq-list {
-  @apply flex flex-col bg-[#ffff] rounded-2xl shadow-custom;
+  @apply flex flex-col bg-[#F7F7F7] rounded-2xl shadow-custom;
   @apply xs:gap-4 xs:p-8;
   @apply sm:gap-4 sm:p-8;
   @apply md:w-[80vw] md:gap-5 md:p-9;

@@ -1,5 +1,5 @@
 .section-benefits {
-  @apply bg-[#F5F5F5] w-full  flex  justify-center  flex-col;
+  @apply bg-[#FFFFFF] w-full  flex  justify-center  flex-col;
   @apply xs:p-8;
   @apply sm:p-11;
   @apply md:p-11;
@@ -23,7 +23,7 @@
   @apply xl:grid-cols-2 xl:gap-3 xl:mt-7 xl:w-[60vw];
 }
 .card-benefits {
-  @apply bg-[#ffff] flex flex-col rounded shadow-custom;
+  @apply bg-[#D1D1D1] flex flex-col rounded shadow-custom;
   @apply xs:p-7;
   @apply sm:p-7 sm:gap-2;
   @apply md:p-8 md:gap-3;

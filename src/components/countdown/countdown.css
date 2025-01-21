@@ -2,7 +2,7 @@
   @apply fixed bottom-7 right-7 text-center;
 }
 .countdown-text {
-  @apply text-[#FF4500] font-bold animate-pulse;
+  @apply text-[#4CAF50] font-bold animate-pulse;
   @apply xs:text-base;
   @apply sm:text-lg;
   @apply md:text-xl;
@@ -10,7 +10,7 @@
   @apply xl:text-xl;
 }
 .countdown-regressive {
-  @apply text-[#FF4500] font-bold;
+  @apply text-[#4CAF50] font-bold;
   @apply xs:text-lg;
   @apply sm:text-xl;
   @apply md:text-xl;

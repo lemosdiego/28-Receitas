@@ -1,6 +1,6 @@
 .cta {
-  @apply bg-[#FF6347] rounded text-[#ffff];
+  @apply bg-[#4CAF50] rounded text-[#ffff];
 }
 .cta:hover {
-  @apply bg-[#FF4500];
+  @apply bg-[#388E3C];
 }
