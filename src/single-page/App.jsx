@@ -1,6 +1,7 @@
 import Countdown from "../components/countdown/Countdown";
 import Benefits from "./benefits/Benefits";
 import Bonus from "./bonus/Bonus";
+import Faq from "./faq/Faq";
 import Hero from "./hero/Hero";
 import Highlights from "./highlights/Highlights";
 import Presentation from "./presentation/Presentation";
@@ -19,6 +20,7 @@ const App = () => {
       <Whybuy />
       <Testimonials />
       <Bonus />
+      <Faq />
       <Countdown durationHours={5} />
     </div>
   );
