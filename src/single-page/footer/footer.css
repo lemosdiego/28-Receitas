@@ -1,0 +1,28 @@
+footer {
+  @apply flex items-center justify-evenly bg-[#34495E] text-[#BDC3C7];
+  @apply xs:flex-col xs:p-16;
+  @apply sm:flex-col sm:p-16;
+  @apply md:p-24;
+  @apply lg:p-36;
+  @apply xl:p-40;
+}
+
+.footer-content {
+  @apply flex flex-col gap-4;
+  @apply xs:w-[70vw];
+  @apply sm:w-[70vw];
+  @apply md:w-[35vh];
+  @apply lg:w-[45vh];
+  @apply xl:w-[60vh];
+}
+
+.footer-tile {
+  @apply font-extrabold text-lg;
+}
+
+.copy {
+  @apply font-semibold;
+}
+.footer-text {
+  @apply text-sm;
+}

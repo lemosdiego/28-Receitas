@@ -1,0 +1,23 @@
+form {
+  @apply flex flex-col  gap-3;
+  @apply xs:w-[70vw];
+  @apply sm:w-[70vw];
+  @apply md:w-[30vw];
+  @apply lg:w-[30vw];
+  @apply xl:w-[30vw];
+}
+
+input {
+  @apply border-2 h-12 p-2 rounded outline-none border-none;
+}
+
+textarea {
+  @apply border-2 h-28 resize-none p-2 rounded outline-none border-none;
+}
+.button-form {
+  @apply border-2 h-12 p-2 rounded bg-[#4CAF50] outline-none border-none;
+}
+
+.button-form:hover {
+  @apply bg-[#16A085];
+}
