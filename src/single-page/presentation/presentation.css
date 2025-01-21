@@ -7,11 +7,21 @@
   @apply xl:p-28 xl:gap-4;
 }
 .presentation-title {
+  @apply font-bold;
   @apply xs:text-xl;
   @apply sm:text-2xl;
   @apply md:text-2xl;
   @apply lg:text-2xl;
   @apply xl:text-4xl;
+}
+
+.presentation-title-secondary {
+  @apply font-medium;
+  @apply xs:text-base;
+  @apply sm:text-lg;
+  @apply md:text-xl;
+  @apply lg:text-xl;
+  @apply xl:text-2xl xl:w-4/5;
 }
 
 .presentation-description {
@@ -31,7 +41,7 @@
   @apply xl:grid-cols-2 xl:mt-6;
 }
 .card-presentation {
-  @apply border-e bg-[#D1D1D1] rounded shadow-custom;
+  @apply border-e bg-[#D1D1D1] rounded;
   @apply xs:p-6;
   @apply sm:p-6;
   @apply md:p-7;
@@ -42,6 +52,7 @@
   @apply bg-[#F5F5F5];
 }
 .title-category {
+  @apply font-semibold;
   @apply sm:text-lg;
   @apply md:text-xl;
   @apply lg:text-xl;

@@ -25,6 +25,7 @@
 }
 
 .title-promo {
+  @apply font-bold;
   @apply xs:text-2xl;
   @apply sm:text-3xl;
   @apply md:text-3xl;

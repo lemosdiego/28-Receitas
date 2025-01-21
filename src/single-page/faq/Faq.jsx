@@ -5,12 +5,12 @@ const faqList = [
   {
     question: "Como adquirir o produto?",
     answer:
-      "Ao clicar no link de compra, você será direcionado à nossa página de vendas parceira para você ter uma experiência de compra totalmente segura.",
+      "Para adquirir o produto, basta clicar no link de compra disponível em nosso site. Você será automaticamente direcionado à página de vendas da nossa parceira Kwyfy, que oferece uma experiência de compra rápida e segura. Todo o processo de pagamento é feito com segurança para garantir sua tranquilidade.",
   },
   {
     question: "Como recebo o ebook após a compra?",
     answer:
-      "Após a confirmação da compra, você receberá um link de download diretamente no seu e-mail cadastrado, garantindo o acesso imediato ao ebook.",
+      "Ao realizar a compra através da Kiwify, você receberá um e-mail de confirmação diretamente da Kiwify, com o título Pagamento Aprovado e o nome do produto adquirido.No e-mail, haverá um botão para criar sua senha de acesso. Após criar sua senha, você poderá fazer o login e acessar o ebook de forma rápida e segura. Esse processo garante que você tenha acesso imediato ao seu produto digital.",
   },
   {
     question: "O ebook é adequado para vegetarianos/vegans?",

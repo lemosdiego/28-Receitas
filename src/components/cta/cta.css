@@ -1,5 +1,5 @@
 .cta {
-  @apply bg-[#4CAF50] rounded text-[#ffff];
+  @apply bg-[#4CAF50] rounded text-[#ffff] flex items-center justify-center shadow-custom;
 }
 .cta:hover {
   @apply bg-[#388E3C];

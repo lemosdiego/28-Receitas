@@ -39,7 +39,7 @@
 }
 
 .faq-answer {
-  @apply italic;
+  @apply italic text-[#333333];
   @apply xs:text-lg xs:mt-2;
   @apply sm:text-lg sm:mt-2;
   @apply md:text-lg md:mt-3;

@@ -29,9 +29,9 @@ const Presentation = () => {
         Descubra como perder peso <br />
         de maneira saudável e sustentável.
       </h2>
-      <h2 className="presentation-title">
-        28 Receitas incrives para ajudar você nesse processo
-      </h2>
+      <h3 className="presentation-title-secondary">
+        28 Receitas incríveis para ajudar você nesse processo
+      </h3>
       <p className="presentation-description">
         Alimentar-se de forma saudável não significa abrir mão do prazer à mesa.
         Aprenda a combinar alimentos nutritivos em receitas simples, saborosas e
@@ -49,4 +49,5 @@ const Presentation = () => {
     </section>
   );
 };
+
 export default Presentation;

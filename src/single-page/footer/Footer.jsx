@@ -13,7 +13,7 @@ const Footer = () => {
           necessidades.
         </p>
         <p className="footer-text">
-          Tem dúvidas ou sugestões? Preencha o formulário abaixo e entraremos em
+          Tem dúvidas ou sugestões? Preencha o formulário e entraremos em
           contato com você o mais rápido possível!
         </p>
         <p className="copy">

@@ -1,15 +1,20 @@
 import PropTypes from "prop-types";
 import "./cta.css";
-const Cta = ({ href, className, children }) => {
+
+const Cta = ({ className, children }) => {
   return (
-    <button href={href} className={`cta ${className}`}>
+    <a
+      href="https://pay.kiwify.com.br/B1lADmz"
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`cta ${className}`}
+    >
       {children}
-    </button>
+    </a>
   );
 };
 
 Cta.propTypes = {
-  href: PropTypes.string.isRequired,
   className: PropTypes.string,
   children: PropTypes.node.isRequired,
 };

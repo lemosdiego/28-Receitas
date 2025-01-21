@@ -36,7 +36,7 @@
 }
 
 .point-item {
-  @apply font-medium italic;
+  @apply font-medium;
   @apply xs:text-lg;
   @apply sm:text-lg;
   @apply md:text-lg;

@@ -6,9 +6,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", serif;
 }
 
 body {
   overflow-x: hidden;
-  @apply bg-[#F7F7F7];
+  @apply bg-[#F7F7F7] text-[#333333];
 }

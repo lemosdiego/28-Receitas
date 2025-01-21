@@ -5,8 +5,8 @@ const Promo = () => {
   return (
     <section className="section-promo">
       <img
-        src="/public/imagens/capaEbook.webp"
-        alt=""
+        src="/imagens/capaEbook.webp"
+        alt="Capa do eBook 28 Receitas Saudáveis"
         className="image-promo"
       />
       <aside className="content-promo">

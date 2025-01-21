@@ -8,6 +8,7 @@
 }
 
 .title-benefits {
+  @apply font-bold;
   @apply xs:text-3xl;
   @apply sm:text-3xl;
   @apply md:text-4xl;
@@ -23,7 +24,7 @@
   @apply xl:grid-cols-2 xl:gap-3 xl:mt-7 xl:w-[60vw];
 }
 .card-benefits {
-  @apply bg-[#D1D1D1] flex flex-col rounded shadow-custom;
+  @apply bg-[#D1D1D1] flex flex-col rounded;
   @apply xs:p-7;
   @apply sm:p-7 sm:gap-2;
   @apply md:p-8 md:gap-3;
@@ -31,7 +32,7 @@
   @apply xl:p-11 xl:gap-2;
 }
 .title-card-benefits {
-  @apply text-xl;
+  @apply text-xl font-semibold;
 }
 .description-card-benefits {
   @apply text-base;

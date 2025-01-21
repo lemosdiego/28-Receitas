@@ -34,7 +34,7 @@
 }
 
 .bonus-list {
-  @apply italic font-medium;
+  @apply font-medium;
   @apply xs:text-lg;
   @apply sm:text-lg;
   @apply md:text-lg;

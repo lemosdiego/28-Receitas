@@ -8,12 +8,7 @@ const Hero = () => {
       <p className="hero-description">
         Um guia completo para uma jornada de emagrecimento saudável e deliciosa
       </p>
-      <Cta
-        href="https://www.youtube.com/watch?v=ddT-v65Nulw"
-        className="cta-hero"
-      >
-        Adquira já
-      </Cta>
+      <Cta className="cta-hero">Adquira já</Cta>
     </header>
   );
 };

@@ -8,6 +8,7 @@
 }
 
 .title-layout {
+  @apply font-semibold;
   @apply text-center;
   @apply xs:text-3xl;
   @apply sm:text-3xl;
@@ -25,7 +26,7 @@
 }
 
 .card-layout {
-  @apply flex flex-col items-center shadow-custom  rounded-xl text-center gap-2;
+  @apply flex flex-col items-center rounded-xl text-center gap-2;
   @apply xs:p-4;
   @apply sm:p-5;
   @apply md:p-6;
