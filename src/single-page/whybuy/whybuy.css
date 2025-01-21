@@ -1,5 +1,5 @@
 .section-whybuy {
-  @apply grid  gap-7 bg-[#8FBC8F];
+  @apply grid  gap-7 bg-[#f5f5f5];
   @apply md:grid-cols-2;
   @apply lg:grid-cols-2;
   @apply xl:grid-cols-2;

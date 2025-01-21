@@ -1,5 +1,5 @@
 .section-layout {
-  @apply flex items-center justify-center flex-col  bg-[#8FBC8F];
+  @apply flex items-center justify-center flex-col  bg-[#f5f5f5];
   @apply xs:p-7;
   @apply sm:p-9;
   @apply md:p-10;
@@ -25,7 +25,7 @@
 }
 
 .card-layout {
-  @apply flex flex-col items-center shadow-custom bg-[#F5F5F5] rounded-xl text-center gap-2;
+  @apply flex flex-col items-center shadow-custom  rounded-xl text-center gap-2;
   @apply xs:p-4;
   @apply sm:p-5;
   @apply md:p-6;
